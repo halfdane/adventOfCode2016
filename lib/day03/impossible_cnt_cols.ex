@@ -45,12 +45,12 @@ defmodule Day03_2Test do
   use ExUnit.Case
   test "input2" do
     input = Day03_2.read_file("input_col.txt")
-    assert Day03_2.possible_triangles(input) == 2
+    assert Day03_2.possible_triangles(input) == 6
   end
 
   test "result" do
     input = Day03_2.read_file("input.txt")
-    assert Day03_2.possible_triangles(input) == 1032
+    assert Day03_2.possible_triangles(input) == 1838
   end
 
 end
