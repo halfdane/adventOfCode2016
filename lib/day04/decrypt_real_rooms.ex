@@ -74,7 +74,7 @@ defmodule Day04_2Test do
 
   test "result" do
     input = Day04_2.read_file("input.txt")
-    assert Day04_2.solve(input) == 482
+    assert Day04_2.solve(input) == [482]
   end
 
 end
